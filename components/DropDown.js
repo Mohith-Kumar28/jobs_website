@@ -136,7 +136,7 @@ const DropDown = () => {
           </svg>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 1</h2>
           <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
           
         </div>
@@ -150,7 +150,7 @@ const DropDown = () => {
           </svg>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 2</h2>
           <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
         
         </div>
@@ -163,7 +163,7 @@ const DropDown = () => {
           </svg>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 3</h2>
           <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
         
         </div>
