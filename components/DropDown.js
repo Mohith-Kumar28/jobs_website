@@ -136,8 +136,8 @@ const DropDown = () => {
           </svg>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 1</h2>
-          <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+          {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 1</h2> */}
+          <p className="leading-relaxed text-base">All available positions in marketing, sales, customer service, and other fields immediately attract highly skilled applicants.</p>
           
         </div>
       </div>
@@ -150,8 +150,8 @@ const DropDown = () => {
           </svg>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 2</h2>
-          <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+          {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 2</h2> */}
+          <p className="leading-relaxed text-base">We comprehend companies’ numerous challenges while searching for individuals for their open positions.</p>
         
         </div>
       </div>
@@ -163,8 +163,8 @@ const DropDown = () => {
           </svg>
         </div>
         <div className="flex-grow">
-          <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 3</h2>
-          <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+          {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 3</h2> */}
+          <p className="leading-relaxed text-base">We know that hiring the right candidate for the job is incredibly important for any company</p>
         
         </div>
       </div>

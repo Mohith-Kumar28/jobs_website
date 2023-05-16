@@ -27,28 +27,34 @@ export default function UploadCv() {
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Upload uour Resume.</h2>
             <p className="mt-4 text-lg leading-8 text-gray-300">
-              Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt
-              dolore.
+            Our algorithms will help in getting your resume viewed by top recruiters. 
+Recruiters are using resume search as a top tool to find the best candidate. 
             </p>
-            <div className="mt-6 flex max-w-md gap-x-4">
-              <label htmlFor="email-address" className="sr-only">
-                Email address
-              </label>
-              <input
-                id="email-address"
-                name="email"
-                type="file"
-                required
-                className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6 "
-              />
-              {/* <button
-                type="submit"
-                className="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-              >
-                Subscribe
-              </button>
-          */}
-            </div>
+            
+<div className="rounded-lg  px-6 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 ">
+   
+   <div className="relative mb-4">
+     <label for="name" className="leading-7 text-sm text-gray-600">Name</label>
+     <input type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+   </div>
+   <div className="relative mb-4">
+     <label for="email" className="leading-7 text-sm text-gray-600">Email</label>
+     <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+   </div>
+   <div className="relative mb-4">
+     <label for="zip" className="leading-7 text-sm text-gray-600">Zip Code</label>
+     <input type="number" id="zip" name="zip" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+   </div>
+   <div className="relative mb-4">
+     <label for="zip" className="leading-7 text-sm text-gray-600">Upload in PDF format</label>
+     <input type="file" id="zip" name="zip" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+   </div>
+  
+  
+   <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Upload</button>
+   <p className="text-sm text-gray-500 mt-3">We continually work to ensure a secure user experience and are dedicated to safeguarding your privacy.</p>
+ </div>
+ 
           </div>
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import Link from 'next/link'
 import Image from 'next/image'
 
 
@@ -43,13 +43,13 @@ export default function Hero() {
         <div className="mx-auto max-w-2xl py-24 sm:py-36 lg:py-36">
             <div className="bg-white/20 backdrop-blur-xl p-7 rounded-xl">
           <div className=" hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            {/* <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               some sub heading here .{' '}
               <a href="#" className="font-semibold text-green-600">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
@@ -66,9 +66,11 @@ export default function Hero() {
               >
                 Get started
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-white-900">
-                Learn more <span aria-hidden="true">→</span>
+              <Link href="/shifts">              <a  className="text-sm font-semibold leading-6 text-white-900">
+                Shifts <span aria-hidden="true">→</span>
               </a>
+              </Link>
+
             </div>
           </div></div>
         </div>
