@@ -19,6 +19,8 @@ export default function Hero() {
 </div>
 
      <Image
+     placeholder="blur"
+     blurDataURL="/hero/hero.jpg"
       src="/hero/hero.jpg"
       objectFit="cover"
       layout="fill"
