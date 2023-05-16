@@ -31,7 +31,7 @@ export default function UploadCv() {
 Recruiters are using resume search as a top tool to find the best candidate. 
             </p>
             
-<div className="rounded-lg  px-6 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 ">
+<div className="rounded-lg  px-6 bg-white flex flex-col md:ml-auto w-full py-8 mt-8 ">
    
    <div className="relative mb-4">
      <label for="name" className="leading-7 text-sm text-gray-600">Name</label>
@@ -51,7 +51,7 @@ Recruiters are using resume search as a top tool to find the best candidate.
    </div>
   
   
-   <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Upload</button>
+   <button className="text-white bg-green-500 font-semibold border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Upload</button>
    <p className="text-sm text-gray-500 mt-3">We continually work to ensure a secure user experience and are dedicated to safeguarding your privacy.</p>
  </div>
  
