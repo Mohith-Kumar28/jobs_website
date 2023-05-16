@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const WhatWeDo = () => {
     return (<div className="gap-y-6 flex flex-col">
     <div className='bg-green-50 rounded-r-lg mr-20 px-10'>
@@ -12,8 +14,8 @@ const WhatWeDo = () => {
       </h1>
       <p class="mb-8 leading-relaxed">Your ability to land the dream job interview depends on how nicely your CV is crafted.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Upload Cv</button>
-        {/* <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
+     <Link href="/fileUpload">   <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Upload Cv</button>
+     </Link>  {/* <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
       </div>
     </div>
   </div>
@@ -29,7 +31,7 @@ const WhatWeDo = () => {
             </h1>
             <p className="mb-8 leading-relaxed">We'll impart our knowledge to improve the professional appearance of your resignation.</p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">View more</button>
+           <Link href="/resignation">   <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">View more</button></Link>
               {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
             </div>
           </div>
@@ -51,8 +53,8 @@ const WhatWeDo = () => {
       </h1>
       <p class="mb-8 leading-relaxed">Choose where and when you work; there are no obligations</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+     <Link href="/shifts">   <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">View more</button>
+     </Link>
       </div>
     </div>
   </div>

@@ -40,7 +40,7 @@ export default function Hero() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-24 sm:py-36 lg:py-36">
+        <div className="mx-auto max-w-2xl py-24 pb-36 pt-20">
             <div className="bg-white/20 backdrop-blur-xl p-7 rounded-xl">
           <div className=" hidden sm:mb-8 sm:flex sm:justify-center">
             {/* <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -60,15 +60,15 @@ export default function Hero() {
               fugiat veniam occaecat fugiat aliqua.
             </p> */}
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
+              <Link
                 href="#dropDown"
                 className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
               >
                 Get started
-              </a>
-              <Link href="/shifts">              <a  className="text-sm font-semibold leading-6 text-white-900">
+              </Link>
+              <Link href="/shifts">      <span  className="text-sm font-semibold leading-6 text-white-900">
                 Shifts <span aria-hidden="true">→</span>
-              </a>
+              </span>
               </Link>
 
             </div>

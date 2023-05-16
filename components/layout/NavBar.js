@@ -1,21 +1,26 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Link1', href: '#', current: false },
-  { name: 'Link2', href: '#', current: false },
-  { name: 'Link3', href: '#', current: false },
-]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 export default function NavBar() {
+  const router =useRouter()
+
+  const navigation = [
+    { name: 'Home', href: '/', current: router.pathname=="/"  },
+    { name: 'Shifts', href: '/shifts', current:router.pathname.includes("/shifts")   },
+    { name: 'File Upload', href: '/fileUpload', current: router.pathname.includes("/fileUpload")  },
+    { name: 'Resignation', href: '/resignation', current: router.pathname.includes("/resignation")  },
+  ]
   return (
-    <Disclosure as="nav" className="bg-gray-100 fixed top-0 left-0 z-40 w-full shadow-lg border-b">
+    <Disclosure as="nav" className="bg-gray-100 sticky top-0 left-0 z-40 w-full shadow-lg border-b">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -48,7 +53,7 @@ export default function NavBar() {
                   <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -58,7 +63,7 @@ export default function NavBar() {
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

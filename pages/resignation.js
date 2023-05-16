@@ -1,14 +1,14 @@
 import Footer from "@/components/layout/Footer"
 import NavBar from "@/components/layout/NavBar"
-import Shifts from "@/components/shifts/Shifts"
-const shifts = () => {
+import Resignation from "@/components/Resignation"
+const resignation = () => {
     return (
         <div>
             <NavBar/>
-            <Shifts/>
+            <Resignation/>
             <Footer/>
         </div>
     )
 }
 
-export default shifts
+export default resignation
