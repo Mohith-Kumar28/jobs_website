@@ -34,7 +34,7 @@ const DropDown = () => {
     return (<>
  
 
-      <section className="text-gray-600 body-font">
+      <section id="dropDown" className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
    {stage=='Stage1'&& (<><Stage1/>
