@@ -20,7 +20,7 @@ export default function NavBar() {
     { name: 'Resignation', href: '/resignation', current: router.pathname.includes("/resignation")  },
   ]
   return (
-    <Disclosure as="nav" className="bg-gray-100 sticky top-0 left-0 z-40 w-full shadow-lg border-b">
+    <Disclosure as="nav" className="bg-white/30 backdrop-blur-xl sticky top-0 left-0 z-40 w-full shadow-lg ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -57,7 +57,7 @@ export default function NavBar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-200 hover:text-gray-600',
                           'rounded-md px-3 py-2 text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}

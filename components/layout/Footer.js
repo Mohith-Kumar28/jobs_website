@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 const Footer = () => {
@@ -17,19 +18,21 @@ const Footer = () => {
     <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav className="list-none mb-10">
-          <li>
-            <a className="text-gray-400 hover:text-white">First Link</a>
-          </li>
-          <li>
-            <a className="text-gray-400 hover:text-white">Second Link</a>
-          </li>
-          <li>
-            <a className="text-gray-400 hover:text-white">Third Link</a>
-          </li>
-          <li>
-            <a className="text-gray-400 hover:text-white">Fourth Link</a>
-          </li>
+        <nav className="list-none mb-10 flex flex-col">
+
+          <Link className="text-gray-400 hover:text-white" href="/">
+            Home
+          </Link >
+          <Link className="text-gray-400 hover:text-white" href="/shifts">
+            Shifts
+          </Link >
+          <Link className="text-gray-400 hover:text-white" href="/fileUpload">
+            File Upload
+          </Link >
+          <Link className="text-gray-400 hover:text-white" href="/resignation">
+            Resignation
+          </Link >
+       
         </nav>
       </div>
   </div>

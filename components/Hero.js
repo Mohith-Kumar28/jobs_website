@@ -62,11 +62,11 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="#dropDown"
-                className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                className="rounded-md bg-green-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
               >
                 Get started
               </Link>
-              <Link href="/shifts">      <span  className="text-sm font-semibold leading-6 text-white-900">
+              <Link href="/shifts">      <span  className="text-md font-semibold leading-6 text-gray-200 underline">
                 Shifts <span aria-hidden="true">→</span>
               </span>
               </Link>
