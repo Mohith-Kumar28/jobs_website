@@ -18,7 +18,7 @@ export default function Home() {
     <NavBar/>
     <Hero/>
     <DropDown/>
-    <WhatWeDo/>
+    {/* <WhatWeDo/> */}
     <UploadCv/>
     <Testimonials/>
     <Footer/>

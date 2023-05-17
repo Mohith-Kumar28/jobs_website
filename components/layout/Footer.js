@@ -13,7 +13,7 @@ const Footer = () => {
         </svg>
         <span className="ml-3 text-xl">LOGO</span>
       </a>
-      <p className="mt-2 text-sm text-gray-500">Elevatestaff Ltds<br/><span className="font-bold">Flat 8 Seatherton Court, Spring Place, Barking, England, IG11 7GL</span></p>
+      <p className="mt-2 text-lg font-bold text-gray-400">Elevatestaff Ltd<br/><span className="font-semibold font-base text-gray-500">Flat 8 Seatherton Court, Spring Place, Barking, England, IG11 7GL</span></p>
     </div>
     <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
