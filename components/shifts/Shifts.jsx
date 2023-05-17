@@ -12,7 +12,7 @@ const Shifts = () => {
       {/* <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> */}
     </div>
     <div className="flex flex-wrap -m-4">
-      <div className="xl:w-1/4 md:w-1/2 p-4">
+      <div className=" md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <Image  placeholder="blur"
      blurDataURL="/assets/application.jpg" width={200} height={200} className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/application.jpg" alt="content"/>
@@ -22,7 +22,7 @@ const Shifts = () => {
           <p className="leading-relaxed text-base">A simple, free application and phone interview are required to join. then onboard with our team's assistance.</p>
         </div>
       </div>
-      <div className="xl:w-1/4 md:w-1/2 p-4">
+      <div className=" md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <Image  placeholder="blur"
      blurDataURL="/assets/alerts.jpg" width={200} height={200} className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/alerts.jpg" alt="content"/>
