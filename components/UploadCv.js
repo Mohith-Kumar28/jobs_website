@@ -13,13 +13,14 @@
   ```
 */
 import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
+import FileModal from './dropDowns/FileModal'
 
 export default function UploadCv() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 pt-28 pb-20 sm:pt-44 lg:pt-52 mt-28">
+    <div id="fileUploadId" className="relative isolate overflow-hidden bg-gray-900 pt-28 pb-20 sm:pt-44 lg:pt-52 ">
          <div className="z-40 leading-none  absolute top-0 left-0 w-full  overflow-hidden">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#ffffff"></path>
+       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F0FDF4"></path>
     </svg>
 </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -47,7 +48,9 @@ Recruiters are using resume search as a top tool to find the best candidate.
    </div>
    <div className="relative mb-4">
      <label for="zip" className="leading-7 text-sm text-gray-600">Upload in PDF format</label>
-     <input type="file" id="zip" name="zip" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+     {/* <input type="file" id="zip" name="zip" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/> */}
+
+     <FileModal/>
    </div>
   
   

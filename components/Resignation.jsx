@@ -1,14 +1,20 @@
+import resignation from '@/pages/resignation';
 import React from 'react';
 
-const QuitJobPage = () => {
+const Resignation = () => {
   return (
   <>
 
 
   
-<section className="text-gray-600 body-font">
+<section className="text-gray-600 body-font relative bg-green-50">
+<div className="z-40 leading-none  absolute top-0 left-0 w-full  overflow-hidden">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#ffffff"></path>
+    </svg>
+</div>
     
-  <div className="container px-5 py-24 mx-auto flex flex-wrap max-w-3xl">
+  <div className="container px-5 pt-28 pb-8 mx-auto flex flex-wrap max-w-3xl">
   <div className="lg:w-1/2 w-full mb-8">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Resign in a professional way</h1>
         <div className="h-1 w-20 bg-green-500 rounded"></div>
@@ -90,4 +96,4 @@ It's customary practise in several businesses to put an employee on "gardening l
   );
 };
 
-export default QuitJobPage;
+export default Resignation;

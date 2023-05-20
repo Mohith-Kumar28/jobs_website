@@ -40,7 +40,7 @@ const FileUpload = () => {
 
   return (
     <>
-    <div className="flex flex-col items-center  bg-gray-100">
+    <div className="flex flex-col items-center  ">
 
 
     <section class="text-gray-600 body-font">
@@ -50,7 +50,7 @@ const FileUpload = () => {
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
      
-    <h1 className="text-3xl font-bold mb-2">File Upload</h1>
+    <h1 className="text-3xl font-bold mb-2 text-gray-900">File Upload</h1>
       <div className="h-1 mb-8 w-20 bg-green-500 rounded mr-auto"></div>
       <div className="w-full max-w-sm p-4 bg-gray-900 rounded-lg shadow-lg flex items-center justify-center ">
         <div className="w-full">

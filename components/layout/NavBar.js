@@ -14,10 +14,13 @@ export default function NavBar() {
   const router =useRouter()
 
   const navigation = [
-    { name: 'Home', href: '/', current: router.pathname=="/"  },
-    { name: 'Shifts', href: '/shifts', current:router.pathname.includes("/shifts")   },
-    { name: 'File Upload', href: '/fileUpload', current: router.pathname.includes("/fileUpload")  },
-    { name: 'Resignation', href: '/resignation', current: router.pathname.includes("/resignation")  },
+    { name: 'Home', href: '/', current: false },
+    { name: 'Shifts', href: '/shifts', current:false },
+    { name: 'File Upload', href: '#fileUploadId', current: false  },
+    // { name: 'Home', href: '/', current: router.pathname=="/"  },
+    // { name: 'Shifts', href: '/shifts', current:router.pathname.includes("/shifts")   },
+    // { name: 'File Upload', href: '#fileUploadId', current: router.pathname.includes("/fileUpload")  },
+    // { name: 'Resignation', href: '/resignation', current: router.pathname.includes("/resignation")  },
   ]
   return (
     <Disclosure as="nav" className="bg-white/30 backdrop-blur-xl sticky top-0 left-0 z-40 w-full shadow-lg ">

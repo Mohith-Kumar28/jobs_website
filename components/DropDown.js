@@ -61,6 +61,8 @@ const DropDown = () => {
             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
           </svg>
         </div>
+          <div className='border-b-[12px] border-red-200 h-7 text-lg font-bold text-gray-900'>UNLIMITED CHOICES
+          </div>
         <div className="flex-grow">
           {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 1</h2> */}
           <p className="leading-relaxed text-base">All available positions in marketing, sales, customer service, and other fields immediately attract highly skilled applicants.</p>
@@ -75,6 +77,8 @@ const DropDown = () => {
             <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
           </svg>
         </div>
+        <div className='border-b-[12px] border-yellow-200 h-7 text-lg font-bold text-gray-900'>EXCITING CHALLENGES
+          </div>
         <div className="flex-grow">
           {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 2</h2> */}
           <p className="leading-relaxed text-base">We comprehend companies’ numerous challenges while searching for individuals for their open positions.</p>
@@ -88,6 +92,8 @@ const DropDown = () => {
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
         </div>
+        <div className='border-b-[12px] border-blue-200 h-7 text-lg font-bold text-gray-900'>EFFICIENT HIRING
+          </div>
         <div className="flex-grow">
           {/* <h2 className="text-gray-900 text-lg title-font font-medium mb-3">USP 3</h2> */}
           <p className="leading-relaxed text-base">We know that hiring the right candidate for the job is incredibly important for any company</p>

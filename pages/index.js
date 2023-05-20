@@ -6,6 +6,9 @@ import WhatWeDo from '@/components/WhatWeDo'
 import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/layout/Footer'
 import UploadCv from '@/components/UploadCv'
+import Resignation from '@/components/Resignation'
+import FileUpload from '@/components/FileUpload'
+// import Resignation from '@components/Resignation'
 // import { Inter } from 'next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -18,9 +21,12 @@ export default function Home() {
     <NavBar/>
     <Hero/>
     <DropDown/>
+    <Resignation/>
     {/* <WhatWeDo/> */}
     <UploadCv/>
     <Testimonials/>
+
+    {/* <FileUpload/> */}
     <Footer/>
     </main>
   )

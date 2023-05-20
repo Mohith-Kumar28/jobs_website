@@ -26,12 +26,12 @@ const Footer = () => {
           <Link className="text-gray-400 hover:text-white" href="/shifts">
             Shifts
           </Link >
-          <Link className="text-gray-400 hover:text-white" href="/fileUpload">
+          <Link className="text-gray-400 hover:text-white" href="#fileUploadId">
             File Upload
           </Link >
-          <Link className="text-gray-400 hover:text-white" href="/resignation">
+          {/* <Link className="text-gray-400 hover:text-white" href="/resignation">
             Resignation
-          </Link >
+          </Link > */}
        
         </nav>
       </div>
