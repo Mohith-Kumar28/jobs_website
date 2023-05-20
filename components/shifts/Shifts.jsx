@@ -2,40 +2,7 @@ import Image from "next/image"
 const Shifts = () => {
     return (
         <div>
-        <section className="text-gray-600 body-font pt-10">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-wrap w-full mb-20">
-      <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">One application, many positions to choose from</h1>
-        <div className="h-1 w-20 bg-green-500 rounded"></div>
-      </div>
-      {/* <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> */}
-    </div>
-    <div className="flex flex-wrap -m-4">
-      <div className=" md:w-1/2 p-4">
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <Image  placeholder="blur"
-     blurDataURL="/assets/application.jpg" width={200} height={200} className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/application.jpg" alt="content"/>
-          {/* <img className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/application.jpg" alt="content"/> */}
-          {/* <h3 className="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3> */}
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Simple Process</h2>
-          <p className="leading-relaxed text-base">A simple, free application and phone interview are required to join. then onboard with our team's assistance.</p>
-        </div>
-      </div>
-      <div className=" md:w-1/2 p-4">
-        <div className="bg-gray-100 p-6 rounded-lg">
-          <Image  placeholder="blur"
-     blurDataURL="/assets/alerts.jpg" width={200} height={200} className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/alerts.jpg" alt="content"/>
-          {/* <h3 className="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3> */}
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Timely Alerts</h2>
-          <p className="leading-relaxed text-base">Get alerted of upcoming shifts and choose from a range of shifts from various companies after being accepted.</p>
-        </div>
-      </div>
-   
-    </div>
-  </div>
-
-</section>
+      
 
 
 
@@ -122,8 +89,13 @@ const Shifts = () => {
 
 
 
+
+
+
+
+
     <section className="text-gray-600 body-font">
-  <div className="container px-5 py-32 mx-auto">
+  <div className="container px-5 pt-36 mx-auto">
     <div className="flex flex-col text-center w-full mb-14 justify-center">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Industries you could work in</h1>
       <div className="h-1 mx-auto w-20 bg-green-500 rounded"></div>
@@ -160,7 +132,7 @@ const Shifts = () => {
       </div>
    
       <div className="p-4 md:w-1/6 sm:w-1/2 w-full">
-        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+        <div className="border-2 border-gray-200 px-4 pt-6 rounded-lg">
         <img src="/assets/industries/warehouse.png" className="w-14 h-14 mb-4 mx-auto" alt="" />
           <p className="font-bold text-lg">Warehouse</p>
         </div>
@@ -177,6 +149,47 @@ const Shifts = () => {
   </div>
 </section>
   </div>
+</section>
+
+
+
+
+
+
+
+<section className="text-gray-600 body-font pb-32 pt-10">
+  <div className="container px-5  mx-auto">
+    <div className="flex flex-wrap w-full mb-20">
+      <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">One application, many positions to choose from</h1>
+        <div className="h-1 w-20 bg-green-500 rounded"></div>
+      </div>
+      {/* <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> */}
+    </div>
+    <div className="flex flex-wrap -m-4">
+      <div className=" md:w-1/2 p-4">
+        <div className="bg-gray-100 p-6 rounded-lg">
+          <Image  placeholder="blur"
+     blurDataURL="/assets/application.jpg" width={200} height={200} className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/application.jpg" alt="content"/>
+          {/* <img className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/application.jpg" alt="content"/> */}
+          {/* <h3 className="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3> */}
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Simple Process</h2>
+          <p className="leading-relaxed text-base">A simple, free application and phone interview are required to join. then onboard with our team's assistance.</p>
+        </div>
+      </div>
+      <div className=" md:w-1/2 p-4">
+        <div className="bg-gray-100 p-6 rounded-lg">
+          <Image  placeholder="blur"
+     blurDataURL="/assets/alerts.jpg" width={200} height={200} className="h-56 rounded w-full object-cover object-center mb-6" src="/assets/alerts.jpg" alt="content"/>
+          {/* <h3 className="tracking-widest text-green-500 text-xs font-medium title-font">SUBTITLE</h3> */}
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Timely Alerts</h2>
+          <p className="leading-relaxed text-base">Get alerted of upcoming shifts and choose from a range of shifts from various companies after being accepted.</p>
+        </div>
+      </div>
+   
+    </div>
+  </div>
+
 </section>
 
         </div>
