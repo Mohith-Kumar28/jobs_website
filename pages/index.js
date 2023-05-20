@@ -8,6 +8,7 @@ import Footer from '@/components/layout/Footer'
 import UploadCv from '@/components/UploadCv'
 import Resignation from '@/components/Resignation'
 import FileUpload from '@/components/FileUpload'
+import Shifts from '@/components/shifts/Shifts'
 // import Resignation from '@components/Resignation'
 // import { Inter } from 'next/font/google'
 
@@ -24,6 +25,7 @@ export default function Home() {
     <Resignation/>
     {/* <WhatWeDo/> */}
     <UploadCv/>
+    <Shifts/>
     <Testimonials/>
 
     {/* <FileUpload/> */}

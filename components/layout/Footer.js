@@ -23,7 +23,7 @@ const Footer = () => {
           <Link className="text-gray-400 hover:text-white" href="/">
             Home
           </Link >
-          <Link className="text-gray-400 hover:text-white" href="/shifts">
+          <Link className="text-gray-400 hover:text-white" href="#shiftsId">
             Shifts
           </Link >
           <Link className="text-gray-400 hover:text-white" href="#fileUploadId">

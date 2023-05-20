@@ -15,7 +15,7 @@ export default function NavBar() {
 
   const navigation = [
     { name: 'Home', href: '/', current: false },
-    { name: 'Shifts', href: '/shifts', current:false },
+    { name: 'Shifts', href: '#shiftsId', current:false },
     { name: 'File Upload', href: '#fileUploadId', current: false  },
     // { name: 'Home', href: '/', current: router.pathname=="/"  },
     // { name: 'Shifts', href: '/shifts', current:router.pathname.includes("/shifts")   },
