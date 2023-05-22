@@ -114,7 +114,7 @@ const Shifts = () => {
     <motion.section initial={{  y: 100,opacity:1 }}
      whileInView={{ y: 0,opacity:1 }}
      viewport={{ once: true }}
-     transition={{ duration: 1.2 }} className="text-gray-600 body-font absolute -bottom-48  w-full left-0 px-5 ">
+     transition={{ duration: 1.2 }} className="text-gray-600 body-font absolute -bottom-[1100px] md:-bottom-48  w-full left-0 px-5 ">
   <div className="container rounded-xl p-6  mx-auto bg-green-50 relative">
   <div className="absolute w-full h-full left-0 top-4 z-0  blur-3xl " aria-hidden="true">
         <div
