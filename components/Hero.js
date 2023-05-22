@@ -43,7 +43,11 @@ export default function Hero() {
           />
         </div>
         <div className="mx-auto max-w-2xl py-24 pb-36 pt-20">
-            <div className="bg-white/20 backdrop-blur-xl p-7 rounded-xl">
+            <motion.div 
+     initial={{  opacity:0 }}
+     whileInView={{ opacity:1 }}
+     viewport={{ once: true }}
+     transition={{ duration: 1.8 }} className="bg-white/20 backdrop-blur-xl p-7 rounded-xl">
           <div className=" hidden sm:mb-8 sm:flex sm:justify-center">
             {/* <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               some sub heading here .{' '}
@@ -78,7 +82,7 @@ export default function Hero() {
               </Link>
 
             </div>
-          </div></div>
+          </div></motion.div>
         </div>
         {/* <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
