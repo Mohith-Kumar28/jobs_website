@@ -3,7 +3,7 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import { motion } from 'framer-motion'
 
 
 export default function Hero() {
@@ -62,12 +62,16 @@ export default function Hero() {
               fugiat veniam occaecat fugiat aliqua.
             </p> */}
             <div className="mt-10 flex items-center justify-center gap-x-6">
+              <motion.div  whileHover={{ scale: 1.1}}
+           whileTap={{ scale: 0.9 }}
+           transition={{ type: "spring", stiffness: 400, damping: 15 }}>
               <Link
                 href="#dropDown"
                 className="rounded-md bg-green-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
               >
                 Get started
               </Link>
+              </motion.div>
               <Link href="/shifts">      <span  className="text-md font-semibold leading-6 text-gray-200 underline">
                 Shifts <span aria-hidden="true">→</span>
               </span>

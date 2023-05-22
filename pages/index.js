@@ -17,7 +17,7 @@ import Shifts from '@/components/shifts/Shifts'
 export default function Home() {
   return (
     <main
-     className="bg-white min-h-screen"
+     className="bg-white min-h-screen overflow-hidden"
     >
       
     <NavBar/>
