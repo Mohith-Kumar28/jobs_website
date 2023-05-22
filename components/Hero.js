@@ -63,7 +63,7 @@ export default function Hero() {
             Find work you'll love,
             <br/>
 
-<span className='text-green-600'>
+<span className='text-white drop-shadow-xl shadow-slate-900 '>
             <TypeAnimation
             
       sequence={[
