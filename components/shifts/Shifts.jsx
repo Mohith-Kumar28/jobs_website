@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Faq from "./Faq"
+import { motion } from 'framer-motion'
 const Shifts = () => {
     return (
         <div id="shiftsId">
@@ -7,16 +9,21 @@ const Shifts = () => {
 
 
 
-<section  className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
+<section  className="text-gray-700 body-font font-semibold bg-gradient-to-t from-[#F78989] to-[#F78989]/40 relative pb-40">
+  <div className="container px-5 pt-24  mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Benefits of Shifts by TouchSky</h1>
       <div className="h-1 w-20 bg-green-500 rounded"></div>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Workers in the Shifts network are W2 employees</p>
+      <p className="lg:w-1/2 w-full leading-relaxed text-gray-800 font-semibold">Workers in the Shifts network are W2 employees</p>
     </div>
-    <div className="flex flex-wrap -m-4">
-      <div className="xl:w-1/3 md:w-1/2 p-4">
-        <div className="border border-gray-200 p-6 rounded-lg hover:bg-gray-100">
+    <motion.div initial={{ y:-100, opacity:0 }}
+     whileInView={{y:0, opacity:1 }}
+     viewport={{ once: true }}
+     transition={{ duration: 1.6 }} className="flex flex-wrap -m-4">
+      <motion.div  whileHover={{ scale: 1.1}}
+           whileTap={{ scale: 0.9 }}
+           transition={{ type: "spring", stiffness: 400, damping: 15 }} className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="hover:border-4 h-full bg-[#F6D551] border-2 hover:border-x-[#92CEF6]  hover:border-y-[#F4D352] p-6 rounded-lg hover:bg-gray-100">
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -25,9 +32,11 @@ const Shifts = () => {
           <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Higher Pay</h2>
           <p className="leading-relaxed text-base">Earn more than the minimum salary and receive payment promptly.</p>
         </div>
-      </div>
-      <div className="xl:w-1/3 md:w-1/2 p-4">
-        <div className="border border-gray-200 p-6 rounded-lg  hover:bg-gray-100">
+      </motion.div>
+      <motion.div  whileHover={{ scale: 1.1}}
+           whileTap={{ scale: 0.9 }}
+           transition={{ type: "spring", stiffness: 400, damping: 15 }} className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="hover:border-4 h-full bg-[#F6D551] border-2 hover:border-x-[#92CEF6]  hover:border-y-[#F4D352] p-6 rounded-lg  hover:bg-gray-100">
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <circle cx="6" cy="6" r="3"></circle>
@@ -38,9 +47,11 @@ const Shifts = () => {
           <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Choice</h2>
           <p className="leading-relaxed text-base">Work many jobs before going back to your favourites.</p>
         </div>
-      </div>
-      <div className="xl:w-1/3 md:w-1/2 p-4">
-        <div className="border border-gray-200 p-6 rounded-lg hover:bg-gray-100">
+      </motion.div>
+      <motion.div  whileHover={{ scale: 1.1}}
+           whileTap={{ scale: 0.9 }}
+           transition={{ type: "spring", stiffness: 400, damping: 15 }} className="xl:w-1/3 md:w-1/2 p-4 ">
+        <div className="  hover:border-4 h-full bg-[#F6D551] border-2 hover:border-x-[#92CEF6]  hover:border-y-[#F4D352] p-6 rounded-lg hover:bg-gray-100">
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -50,9 +61,11 @@ const Shifts = () => {
           <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Benefits</h2>
           <p className="leading-relaxed text-base">Health, dental, and vision benefits eligibility</p>
         </div>
-      </div>
-      <div className="xl:w-1/3 md:w-1/2 p-4">
-        <div className="border border-gray-200 p-6 rounded-lg hover:bg-gray-100">
+      </motion.div>
+      <motion.div  whileHover={{ scale: 1.1}}
+           whileTap={{ scale: 0.9 }}
+           transition={{ type: "spring", stiffness: 400, damping: 15 }} className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="hover:border-4 h-full bg-[#F6D551] border-2 hover:border-x-[#92CEF6]  hover:border-y-[#F4D352] p-6 rounded-lg hover:bg-gray-100">
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
@@ -61,9 +74,11 @@ const Shifts = () => {
           <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Rewards</h2>
           <p className="leading-relaxed text-base">Earn paid time off and other benefits by recommending friends.</p>
         </div>
-      </div>
-      <div className="xl:w-1/3 md:w-1/2 p-4">
-        <div className="border border-gray-200 p-6 rounded-lg hover:bg-gray-100">
+      </motion.div>
+      <motion.div  whileHover={{ scale: 1.1}}
+           whileTap={{ scale: 0.9 }}
+           transition={{ type: "spring", stiffness: 400, damping: 15 }} className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="hover:border-4 h-full bg-[#F6D551] border-2 hover:border-x-[#92CEF6]  hover:border-y-[#F4D352] p-6 rounded-lg hover:bg-gray-100">
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
@@ -72,9 +87,11 @@ const Shifts = () => {
           <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Flexibility</h2>
           <p className="leading-relaxed text-base">Choose the time and place to work without being obligated</p>
         </div>
-      </div>
-      <div className="xl:w-1/3 md:w-1/2 p-4">
-        <div className="border border-gray-200 p-6 rounded-lg hover:bg-gray-100">
+      </motion.div>
+      <motion.div  whileHover={{ scale: 1.1}}
+           whileTap={{ scale: 0.9 }}
+           transition={{ type: "spring", stiffness: 400, damping: 15 }} className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="hover:border-4 h-full bg-[#F6D551] border-2 hover:border-x-[#92CEF6]  hover:border-y-[#F4D352] p-6 rounded-lg hover:bg-gray-100">
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-4">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -83,8 +100,8 @@ const Shifts = () => {
           <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Worker Protection</h2>
           <p className="leading-relaxed text-base">In the event of a working injury, a workers' compensation policy</p>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
 
 
 
@@ -94,8 +111,11 @@ const Shifts = () => {
 
 
 
-    <section className="text-gray-600 body-font ">
-  <div className="container rounded-xl p-5 mt-36 mx-auto bg-green-50 relative">
+    <motion.section initial={{  y: 100,opacity:1 }}
+     whileInView={{ y: 0,opacity:1 }}
+     viewport={{ once: true }}
+     transition={{ duration: 1.2 }} className="text-gray-600 body-font absolute -bottom-48  w-full left-0 px-5 ">
+  <div className="container rounded-xl p-6  mx-auto bg-green-50 relative">
   <div className="absolute w-full h-full left-0 top-4 z-0  blur-3xl " aria-hidden="true">
         <div
           className="w-full h-full aspect-auto bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-90"
@@ -157,7 +177,7 @@ const Shifts = () => {
    
     </div>
   </div>
-</section>
+</motion.section>
   </div>
 </section>
 
@@ -201,6 +221,11 @@ const Shifts = () => {
 
 </section> */}
 
+
+
+
+
+{/* <Faq/> */}
         </div>
     )
 }

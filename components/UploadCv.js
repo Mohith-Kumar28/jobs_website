@@ -12,6 +12,7 @@
   }
   ```
 */
+import { motion } from 'framer-motion'
 import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 import FileModal from './dropDowns/FileModal'
 
@@ -20,12 +21,15 @@ export default function UploadCv() {
     <div id="fileUploadId" className="relative isolate overflow-hidden bg-gray-900 pt-28 pb-20 sm:pt-44 lg:pt-52 ">
          <div className="z-40 leading-none  absolute top-0 left-0 w-full  overflow-hidden">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#F0FDF4"></path>
+       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#92CEF6"></path>
     </svg>
 </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
-          <div className="max-w-xl lg:max-w-lg">
+          <motion.div initial={{  y: 100,opacity:0 }}
+     whileInView={{ y: 0,opacity:1 }}
+     viewport={{ once: true }}
+     transition={{ duration: 1.2 }}  className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Upload uour Resume.</h2>
             <p className="mt-4 text-lg leading-8 text-gray-300">
             Our algorithms will help in getting your resume viewed by top recruiters. 
@@ -58,8 +62,11 @@ Recruiters are using resume search as a top tool to find the best candidate.
    <p className="text-sm text-gray-500 mt-3">We continually work to ensure a secure user experience and are dedicated to safeguarding your privacy.</p>
  </div>
  
-          </div>
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+          </motion.div>
+          <motion.dl initial={{  x: 100,opacity:0 }}
+     whileInView={{ x: 0,opacity:1 }}
+     viewport={{ once: true }}
+     transition={{ duration: 1.2 }} className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <CalendarDaysIcon className="h-6 w-6 text-white" aria-hidden="true" />
@@ -78,7 +85,7 @@ Recruiters are using resume search as a top tool to find the best candidate.
                 Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.
               </dd>
             </div>
-          </dl>
+          </motion.dl>
         </div>
       </div>
       <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">

@@ -19,6 +19,7 @@ export default function Home() {
     <main
      className="bg-white min-h-screen"
     >
+      
     <NavBar/>
     <Hero/>
     <DropDown/>
