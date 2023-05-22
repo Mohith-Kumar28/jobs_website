@@ -4,6 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { TypeAnimation } from 'react-type-animation'
 
 
 export default function Hero() {
@@ -59,7 +60,31 @@ export default function Hero() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Find work you'll love, fast.
+            Find work you'll love,
+            <br/>
+
+<span className='text-green-600'>
+            <TypeAnimation
+            
+      sequence={[
+        1000,
+        'Quickly.', // Types 'One'
+        1000, // Waits 1s
+        'Easily.', // Deletes 'One' and types 'Two'
+        1000, // Waits 2s
+        'Right Now.',
+        2000, // Types 'Three' without deleting 'Two'
+        () => {
+          console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+     
+    />
+</span>
+
             </h1>
             {/* <p className="mt-6 text-lg leading-8 text-white-600">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
