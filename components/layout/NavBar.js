@@ -3,6 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 
 
@@ -39,18 +40,17 @@ export default function NavBar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-              <Link href="/">  <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-14 w-auto lg:hidden"
+              <div className=" flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <Link href="/">  <div className="bg-black ">
+              
+              <Image
+                    className=" h-12 w-auto "
                     src="/assets/logo.svg"
-                    alt="Your Company"
+                    width={100}
+                    height={100}
+                    alt="ok"
                   />
-                  <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="/assets/logo.svg"
-                    alt="Your Company"
-                  />
+               
                 </div></Link>
                   </div>
                   <div className="hidden sm:ml-6 sm:block">

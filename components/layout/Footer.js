@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 
@@ -7,14 +8,15 @@ const Footer = () => {
             <footer className="text-gray-400 bg-gray-900 body-font">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-      <div className="bg-white p-3 rounded-lg justify-center inline-flex">
-      <a className="inline title-font font-medium items-center md:justify-start justify-center text-white ">
-      <img
-                    className=" h-14 w-auto "
+      <div className="bg-white rounded-lg p-3 inline-flex">
+      <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+      <Image
+                    className=" h-12 w-auto "
                     src="/assets/logo.svg"
-                    alt="Your Company"
+                    width={100}
+                    height={100}
+                    alt="ok"
                   />
-        {/* <span className="ml-3 text-xl">LOGO</span> */}
       </a></div>
       <p className="mt-2 text-lg font-bold text-gray-400">Elevatestaff Ltd<br/><span className="font-semibold font-base text-gray-500">Flat 8 Seatherton Court, Spring Place, Barking, England, IG11 7GL</span></p>
     </div>
