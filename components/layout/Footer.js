@@ -7,12 +7,15 @@ const Footer = () => {
             <footer className="text-gray-400 bg-gray-900 body-font">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-      <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span className="ml-3 text-xl">LOGO</span>
-      </a>
+      <div className="bg-white p-3 rounded-lg justify-center inline-flex">
+      <a className="inline title-font font-medium items-center md:justify-start justify-center text-white ">
+      <img
+                    className=" h-14 w-auto "
+                    src="/assets/logo.svg"
+                    alt="Your Company"
+                  />
+        {/* <span className="ml-3 text-xl">LOGO</span> */}
+      </a></div>
       <p className="mt-2 text-lg font-bold text-gray-400">Elevatestaff Ltd<br/><span className="font-semibold font-base text-gray-500">Flat 8 Seatherton Court, Spring Place, Barking, England, IG11 7GL</span></p>
     </div>
     <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
