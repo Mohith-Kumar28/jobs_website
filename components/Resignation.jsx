@@ -30,7 +30,7 @@ const Resignation = () => {
             <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
-            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+            {/* <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg> */}
           </div>
@@ -47,7 +47,7 @@ const Resignation = () => {
             <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
-            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+            {/* <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg> */}
           </div>
@@ -67,7 +67,7 @@ const Resignation = () => {
             <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
           </div>
           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
-            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+            {/* <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <circle cx="12" cy="5" r="3"></circle>
               <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
             </svg> */}
@@ -85,7 +85,7 @@ It's customary practise in several businesses to put an employee on "gardening l
      viewport={{ once: true }}
      transition={{ duration: 0.8 }}  className="flex relative">
           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
-            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+            {/* <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg> */}
