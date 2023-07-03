@@ -73,7 +73,7 @@ Recruiters are using resume search as a top tool to find the best candidate.
               </div>
               <dt className="mt-4 font-semibold text-white">Quick Verification</dt>
               <dd className="mt-2 leading-7 text-gray-400">
-                Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
+              Our advanced technology swiftly extracts and verifies crucial resume information, saving time and ensuring accurate candidate evaluation.
               </dd>
             </div>
             <div className="flex flex-col items-start">
@@ -82,7 +82,7 @@ Recruiters are using resume search as a top tool to find the best candidate.
               </div>
               <dt className="mt-4 font-semibold text-white">Job Assurance</dt>
               <dd className="mt-2 leading-7 text-gray-400">
-                Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.
+              With our all-in-one platform, employers receive instant matches with highly qualified candidates, guaranteeing a curated pool of top talent for each job opening.
               </dd>
             </div>
           </motion.dl>
