@@ -44,8 +44,8 @@ const Footer = () => {
   </div>
   <div className="bg-gray-800 bg-opacity-75">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p className="text-gray-400 text-sm text-center sm:text-left">© 2023 website name —
-        <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" rel="noopener noreferrer" target="_blank">apb@gmail.com</a>
+      <p className="text-gray-400 text-sm text-center sm:text-left">© 2023 TouchSky —
+        <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" rel="noopener noreferrer" target="_blank">edilson@touchsky.org</a>
       </p>
     
   
